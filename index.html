@@ -41,7 +41,8 @@
             <li>List 5</li>
          </ol>
 <hr
-         <!--table-->
+
+           <!-- table -->
          <table border="1">
             <thead>
                 <tr>
@@ -78,5 +79,90 @@
                 </tr>
             </tbody>
          </table>
+
+<hr>
+    <!-- link -->
+     <a href="https://www.google.com" target="_blank" rel="noopener">GOOGLE</a>
+     <a href="https://www.facebook.com" target="_blank" rel="noopener">FACEBOOK</a>
+     <a href="https://www.youtube.com" target="_blank" rel="noopener">YOUTUBE</a>  
+<hr>
+         <!--Form -->
+         <form action =''>
+            <h1>Form</h1>
+            <div>
+                <lable for="">First Name:</lable>
+                <input type="text" name="firstname" placeholder="Enter your first name">    
+            </div>
+            <br>
+            <div>
+                <lable for="">Last Name:</lable>
+                <input type="text" name="lastname" placeholder="Enter your last name">
+            </div>
+            <br>
+            <div>
+                <lable for="">Email:</lable>
+                <input type="email" name="email" placeholder="Enter your email">    
+            </div>
+            <br>
+            <div>
+                <lable for="">Message:</lable>
+                <textarea name="message" placeholder="Enter your message" title="Message"id="" cols="40" rows ="10"></textarea>
+            </div>
+            <br>
+            <div>
+                <label for="gender">Gender:</label>
+                <select name="gender" id="gender">
+                    <option value="">Male</option>
+                    <option value="">Felmale</option>
+                    <option value="">Other</option>
+                </select>
+            </div>
+            <br>
+            <div>
+                <label for="">Age:</label>
+                <input type="number" name="age" placeholder="Enter your age">
+            </div>
+            <br>
+            <div>
+                <lable for="">Birthday</lable>
+                <input type="date" name="bday" title="Enter your birthday" placeholder="YYYY-MM-DD">
+            </div>
+            <br>
+             <div>
+                <label for="image">Upload your profile picture:</label>
+                <input type="file" id="image" name="image" accept="image/*">
+             </div>
+                <br>
+            <div>
+                <lable for="">Favorite Food</lable>
+                <label>
+                    <input type="checkbox" name="food" value="Pizza" title="Select Pizza as favorite food">Pizza
+                </label>
+                <label>
+                    <input type="checkbox" name="food" value="Burger" title="Select Burger as favorite food">Burger
+                </label>
+                <label>
+                    <input type="checkbox" name="food" value="Fried rice" title="Select Fried rice as favorite food">Fried rice
+                </label>
+            </div>
+            <br> 
+            <div>
+                <label for="">User type:</label>
+                <label>
+                    <input type="radio" name="user_type" value="admin" title="Select Admin as user type">Admin
+                </label>
+                <label for="">
+                    <input type="radio" name="user_type" value ="subcriber" title="Select Subscriber as user type">Subscriber
+                </label>
+            </div>
+            <br>
+            <div>
+                
+                <input type="submit" id="submitBtn" value="Submit" title="Submit the form">
+            </div>
+         </form>
+<hr>
+<!--Button-->
+            <button type="button">Click Me</button>
 </body>
 </html>
